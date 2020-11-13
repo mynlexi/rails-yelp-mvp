@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+puts " not started seeding"
+Restaurant.create!(name: "new", address: "old", phone_number: "000", category:"belgian")
